@@ -4,14 +4,18 @@
   "description": "Proyecto de automatización de pruebas para la aplicación WEB 'PushingIT' utilizando Playwright y Cucumber en TypeScript. Se implementa el patrón Page Object Model, generación aleatoria de datos con Faker, además de reportes HTML para un análisis visual de los resultados.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "all": "npx cucumber-js",
+    "tag-regresion": "npx cucumber-js --tags @regresion",
+    "tag-happy-path": "npx cucumber-js --tags @happy-path",
+    "generar-reporte-html": "node generate-report.js",
+    "visualizar-reporte-html": "start ./reports/html-report/index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nicolasortiz1995/pushing-it-playwright-typescript-pom.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nicolás Ortiz",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
@@ -28,5 +32,8 @@
     "playwright": "^1.51.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "playwright-prueba-1": "file:"
   }
 }
