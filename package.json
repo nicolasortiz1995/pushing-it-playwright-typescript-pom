@@ -1,0 +1,21 @@
+{
+  "name": "pushing-it-playwright-typescript-pom",
+  "version": "1.0.0",
+  "description": "Proyecto de automatización de pruebas para la aplicación WEB 'PushingIT' utilizando Playwright y Cucumber en TypeScript. Se implementa el patrón Page Object Model, generación aleatoria de datos con Faker, además de reportes HTML para un análisis visual de los resultados.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasortiz1995/pushing-it-playwright-typescript-pom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nicolasortiz1995/pushing-it-playwright-typescript-pom/issues"
+  },
+  "homepage": "https://github.com/nicolasortiz1995/pushing-it-playwright-typescript-pom#readme"
+}
