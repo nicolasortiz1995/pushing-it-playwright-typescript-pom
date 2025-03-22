@@ -34,6 +34,7 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "playwright-prueba-1": "file:"
+    "playwright-prueba-1": "file:",
+    "pushing-it-playwright-typescript-pom": "file:"
   }
 }
