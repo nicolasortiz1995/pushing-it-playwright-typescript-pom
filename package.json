@@ -17,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/nicolasortiz1995/pushing-it-playwright-typescript-pom/issues"
   },
-  "homepage": "https://github.com/nicolasortiz1995/pushing-it-playwright-typescript-pom#readme"
+  "homepage": "https://github.com/nicolasortiz1995/pushing-it-playwright-typescript-pom#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "@faker-js/faker": "^9.6.0",
+    "allure-playwright": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "multiple-cucumber-html-reporter": "^3.9.2",
+    "playwright": "^1.51.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
 }
